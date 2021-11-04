@@ -1,0 +1,52 @@
+import React from 'react'
+
+export default function Footer() {
+  return (
+   <div className="bg-bg-footer bg-cover bg-left bg-no-repeat flex px-14 bg-dark font-nav py-32  border-t border-prime">
+      <div className="w-6/12">
+          {/* <img className="w-36" src={"./assets/tokonft.png"} alt="" /> */}
+          <p className="text-prime mt-8 text-xl">NFT Marketplace on Binance Smart Chain</p>
+          <div className="flex space-x-5 mt-8">
+              <img className="w-8" src={"./assets/social-media/instagram.svg"} alt="" />
+              <img className="w-8" src={"./assets/social-media/telegram.svg"} alt="" />
+              <img className="w-8" src={"./assets/social-media/twitter.svg"} alt="" />
+          </div>
+          <p className="text-lg mt-2 text-prime">info@tokonft.com</p>
+      </div>
+      <div className="w-6/12 justify-between flex">
+        <div className="space-y-2">
+              <p className="text-2xl text-prime font-bold">NFTS</p>
+              <p className="text-lg text-prime">Art NFT</p>
+              <p className="text-lg text-prime">Game NFT</p>
+              <p className="text-lg text-prime">Sports NFT</p>
+              <p className="text-lg text-prime">Photography NFT</p>
+              <p className="text-lg text-prime">Influencer NFTs</p>
+              <p className="text-lg text-prime">Collectibles</p>
+              <p className="text-lg text-prime">Video NFT</p>
+              <p className="text-lg text-prime">Music NFT</p>
+              <p className="text-lg text-prime">Ticket NFT</p>
+          </div>
+
+          <div className="space-y-2">
+              <p className="text-2xl text-prime font-bold">TOKONFT</p>
+              <p className="text-lg text-prime">NFT Blog</p>
+              <p className="text-lg text-prime">NFT Launchpad</p>
+              <p className="text-lg text-prime">Buy NFTs</p>
+              <p className="text-lg text-prime">Buy TKN</p>
+              <p className="text-lg text-prime">Create NFTs</p>
+              <p className="text-lg text-prime">Earn with TKN</p>
+              <p className="text-lg text-prime">Brand Kit</p>
+              <p className="text-lg text-prime">Metaverse Gallery</p>
+          </div>
+         
+          <div className="space-y-2">
+              <p className="text-2xl text-prime font-bold">INFORMATION</p>
+              <p className="text-lg text-prime">Terms of service</p>
+              <p className="text-lg text-prime">Privacy policy</p>
+              <p className="text-lg text-prime">Get verified</p>
+              <p className="text-lg text-prime">FAQ</p>
+          </div>
+      </div>
+   </div>
+  )
+}

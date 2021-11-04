@@ -1,0 +1,6 @@
+export { default as OurTeam } from './ourteam.png'
+export { default as Feature } from './features.png'
+export {default as LaunchpadImg} from './launchpad-illustration.png'
+export {default as MetaverseImg} from './metaverse-illustration.png'
+export {default as StakingImg} from './staking-illustration.png'
+export {default as TeamPhoto} from './teamphoto.png'
