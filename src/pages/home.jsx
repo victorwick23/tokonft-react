@@ -25,7 +25,7 @@ export default function Home() {
               <img className="w-96 mt-14 animate-heromove-3 mb-4 md:mb-14" src={"./assets/hero-3.png"} alt="" />
             </Parallax>
           </div>
-          <Parallax className="absolute pt-52 md:pt-80 w-full " y={[20, 0]} tag="figure">
+          <Parallax className="absolute pt-56 md:pt-80 w-full " y={[20, 0]} tag="figure">
             <img className="w-full h-auto pt-48 md:pt-28 mb-52" src={"./assets/front-stone.png"} alt="" />
           </Parallax>
           <div className="relative md:flex w-full pt-36 md:pt-24 pb-28  md:items-center px-8 md:px-14">

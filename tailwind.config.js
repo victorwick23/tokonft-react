@@ -13,7 +13,8 @@ module.exports = {
         dark : '#1C1B17',
         softDark : '#292C31',
         greygrad : '#43464C',
-        footer : '#24272B'
+        footer : '#24272B',
+        mediumdark: '#373B42'
         
       },
       backgroundImage: {
