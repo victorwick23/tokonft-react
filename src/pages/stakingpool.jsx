@@ -1,5 +1,5 @@
 import React from 'react'
-import {  backgroundNFT2, StakingNftLogo } from '../assets'
+import {  StakingNftLogo } from '../assets'
 
 export default function StakingPool() {
     return (
