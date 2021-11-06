@@ -12,11 +12,13 @@ module.exports = {
         purple : '#473FF4',
         dark : '#1C1B17',
         softDark : '#292C31',
-        greygrad : '#43464C'
+        greygrad : '#43464C',
+        footer : '#24272B'
+        
       },
       backgroundImage: {
         'background': "url('./assets/background.png')",
-        'bg-detail-nft' : "url('./assets/background-detail.jpg')",
+        'bg-detail-nft' : "url('./assets/background-detail.png')",
         'bg-front' : "url('./assets/front-stone.png')",
         'bg-galaxy' : "url('./assets/galaxy.png')",
         'bg-footer' : "url('./assets/footer.png')"
