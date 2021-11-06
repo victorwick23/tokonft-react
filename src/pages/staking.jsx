@@ -14,10 +14,10 @@ export default function Staking() {
             <div className="pt-14">
                 <div className="">
                     <p
-                        className="absolute left-0 right-0 -mt-6 text-prime text-3xl font-bold bg-black text-center border border-purple rounded-full w-64 px-8 py-2 mx-auto -mb-6">
+                        className="absolute left-0 right-0 -mt-6 text-prime text-xl font-bold bg-black text-center border border-purple rounded-full w-52 px-4 py-2 mx-auto -mb-6">
                         Top Artist</p>
                     <div
-                        className="grid grid-cols-4 gap-x-8 gap-y-10 bg-softDark px-5 py-8 justify-center rounded-full border border-purple z-0">
+                        className="grid grid-cols-4 gap-x-8 gap-y-10 bg-softDark px-5 py-8 justify-center rounded-full border border-purple z-0 bg-gradient-to-b from-softDark via-softDark to-dark">
                             <Link to="/profile">
                                 <Topartist />
                             </Link>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax'
-import { OurTeam, Feature, StakingImg, LaunchpadImg, MetaverseImg, GalaxyImg, GalaxyImg2, backgroundNFT, backgroundNFT2, ProfileVictor, ProfileUdin, ProfileResha, ProfileFebi, ProfileAgung} from '../assets'
+import { OurTeam, Feature, StakingImg, LaunchpadImg, MetaverseImg, GalaxyImg, GalaxyImg2, backgroundNFT, backgroundNFT2, ProfileVictor, ProfileUdin, ProfileResha, ProfileFebi, ProfileAgung, ProfileDirga, ProfileRosidi} from '../assets'
 import { Fade } from 'react-awesome-reveal'
 import { Link } from 'react-router-dom'
 
@@ -143,7 +143,7 @@ export default function Home() {
 
                 <div className="w-full md:w-3/12 mt-10">
                   <Fade direction="right" triggerOnce="true">
-                    <img className="w-full md:w-80" src={LaunchpadImg} alt="" />
+                    <img className="w-64 mx-auto md:w-80" src={LaunchpadImg} alt="" />
                   </Fade>
                   <p className="text-lg md:w-80 text-prime font-nav mt-6 tracking-tighter leading-none text-center md:text-right pr-0 md:pr-8">The
                     night is dark and
@@ -164,28 +164,40 @@ export default function Home() {
                 <div className="flex justify-center justify-items-center md:space-x-14">
                   <div className="w-6/12 md:w-2/12">
                     <img className="w-32 mx-auto" src={ProfileAgung} alt="" />
-                    <p className="text-prime text-2xl font-nav text-center pt-4">AGUNG</p>
+                    <p className="text-prime text-2xl font-nav text-center pt-4">AGUNG PRATOMO</p>
                     <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1">Chief Excecutive Officer 
                     </p>
                   </div>
                   <div className="w-6/12 md:w-2/12">
                     <img className="w-32 mx-auto" src={ProfileResha} alt="" />
-                    <p className="text-prime text-2xl font-nav text-center pt-4">RESHA DIRGA</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-56 mx-auto py-1">Chief Marketing Officer
+                    <p className="text-prime text-2xl font-nav text-center pt-4">RESHA JUHARI</p>
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1">Chief Marketing Officer
                     </p>
                   </div>
                   <div className="w-6/12 md:w-2/12">
                     <img className="w-32 mx-auto" src={ProfileFebi} alt="" />
-                    <p className="text-prime text-2xl font-nav text-center pt-4">FEBBY</p>
+                    <p className="text-prime text-2xl font-nav text-center pt-4">FEBY DWI</p>
                     <p className="text-prime font-nav text-center  bg-dark rounded-full w-56 mx-auto py-1">Head of Creative 
+                    </p>
+                  </div>
+                  <div className="w-6/12 md:w-2/12">
+                    <img className="w-32 mx-auto" src={ProfileRosidi} alt="" />
+                    <p className="text-prime text-2xl font-nav text-center pt-4">ROSIDI</p>
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1">Head Blockchain Engineer
                     </p>
                   </div>
                 </div>
                 <div className="flex justify-center mt-14 space-x-14">
                   <div className="w-6/12 md:w-2/12">
                     <img className="w-32 mx-auto" src={ProfileVictor} alt="" />
-                    <p className="text-prime text-2xl font-nav text-center pt-4">VICTOR</p>
+                    <p className="text-prime text-2xl font-nav text-center pt-4">VICTOR WICK</p>
                     <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1">Chief Technology Officer
+                    </p>
+                  </div>
+                  <div className="w-6/12 md:w-2/12">
+                    <img className="w-32 mx-auto" src={ProfileDirga} alt="" />
+                    <p className="text-prime text-2xl font-nav text-center pt-4">DIRGA FLO</p>
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1">Chief Marketing Officer
                     </p>
                   </div>
                   <div className="w-6/12 md:w-2/12">
@@ -195,35 +207,58 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
+                <div className="flex justify-between px-14 mt-10">
+                      <button className="bg-purple rounded-full w-3/12 font-nav text-prime text-2xl py-2 px-3">
+                          Download Art Paper
+                      </button>
+                      <button className="bg-purple rounded-full w-3/12 font-nav text-prime text-2xl py-2 px-3">
+                          Download Legalitas
+                      </button>
+                      
+                  </div>
               </div>
 
               <div className="block md:hidden px-4">
                 <div className="">
-                  <div className="flex space-x-8">
+                  <div className="flex space-x-8 py-2">
                   <div className="w-6/12">
                     <img className="w-32 mx-auto" src={ProfileAgung} alt="" />
                     <p className="text-prime text-xl font-nav text-center pt-4">AGUNG</p>
-                    <p className="text-prime font-nav text-center text-sm bg-dark rounded-full py-1">CEO
+                    <p className="text-prime font-nav text-center text-sm bg-dark rounded-full py-1 w-24 mx-auto">CEO
                     </p>
                   </div>
                   <div className="w-6/12">
                     <img className="w-32 mx-auto" src={ProfileResha} alt="" />
-                    <p className="text-prime text-xl font-nav text-center pt-4">RESHA DIRGA</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1">CMO
+                    <p className="text-prime text-xl font-nav text-center pt-4">RESHA JUHARI</p>
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 w-24 mx-auto">CMO
                     </p>
                   </div>
                   </div>
-                 <div className="flex space-x-8">
+                 <div className="flex space-x-8 py-2">
                  <div className="w-6/12">
                     <img className="w-32 mx-auto" src={ProfileFebi} alt="" />
                     <p className="text-prime text-xl font-nav text-center pt-4">FEBBY</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1">CCO 
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 w-24 mx-auto">CCO 
                     </p>
                   </div>
                   <div className="w-6/12">
                     <img className="w-32 mx-auto" src={ProfileVictor} alt="" />
                     <p className="text-prime text-xl font-nav text-center pt-4">VICTOR</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1">CTO
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 w-24 mx-auto">CTO
+                    </p>
+                 </div>
+                  </div>
+                  <div className="flex space-x-8 py-2">
+                 <div className="w-6/12">
+                    <img className="w-32 mx-auto" src={ProfileDirga} alt="" />
+                    <p className="text-prime text-xl font-nav text-center pt-4">DIRGA FLO</p>
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 w-24 mx-auto">CMO 
+                    </p>
+                  </div>
+                  <div className="w-6/12">
+                    <img className="w-32 mx-auto" src={ProfileRosidi} alt="" />
+                    <p className="text-prime text-xl font-nav text-center pt-4">ROSIDI</p>
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 w-24 mx-auto">CBO
                     </p>
                  </div>
                   </div>
@@ -234,11 +269,11 @@ export default function Home() {
                     </p>
                   </div> */}
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between py-2">
                   <div className="w-6/12 mx-auto">
                     <img className="w-32 mx-auto" src={ProfileUdin} alt="" />
                     <p className="text-prime text-xl font-nav text-center pt-4">IBADARUDINNI</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 px-4">COO
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 px-4 w-24 mx-auto">COO
                     </p>
                   </div>
                   </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Topartist() {
     return (
-        <div className="flex font-nav items-center space-x-5 justify-center">
+        <div className="flex font-nav items-center space-x-5 justify-center hover:bg-dark px-1 py-3 rounded-full">
             <div className="items-center flex">
                 <p className=" text-prime text-2xl">1.</p>
                 <img className="w-24 rounded-full border-8 border-white" src={"./assets/image.jpg"} alt="" />

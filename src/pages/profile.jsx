@@ -17,13 +17,13 @@ export default function profile() {
         </div>
       </div>
       <div className="w-9/12 items-end">
-        <div className="flex space-x-8">
+        <div className="flex space-x-8 justify-center">
             <p className="text-prime text-2xl border-b border-purple">Collection</p>
             <p className="text-purple text-2xl ">Sold</p>
             <p className="text-purple text-2xl ">Created</p>
             <p className="text-purple text-2xl ">Bought</p>
         </div>
-        <div className="grid grid-cols-3 gap-x-8 gap-y-10 pt-8">
+        <div className="grid grid-cols-3 gap-x-12 gap-y-12 pt-8 px-14">
           <Link  to="/detail-nft">
             <NftListProfile/>
           </Link>
