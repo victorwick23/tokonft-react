@@ -1,6 +1,6 @@
 import React from 'react'
 import { FooterLogo, FooterIcon } from '../assets'
-import {FacebookIcon, RedditIcon, YoutubeIcon, TiktokIcon, DiscordIcon} from '../assets'
+import {FacebookIcon, RedditIcon, YoutubeIcon, TiktokIcon} from '../assets'
 
 export default function Footer() {
   return (
@@ -26,13 +26,14 @@ export default function Footer() {
               <a href="https://www.facebook.com/profile.php?id=100074288769187">
                 <img className="w-3 md:w-6" src={FacebookIcon} alt="" />
               </a>
-              <a href="https://youtube.com/channel/UCSjqSh7_29jCUcJ_8h8xQEg">
-                <img className="w-4 md:w-8" src={YoutubeIcon} alt="" />
-              </a>
+              
               </div>
               <div className="flex space-x-4 md:space-x-7 items-center py-2 z-50">
-              <a href="https://discord.gg/JAJuD5Yx">
+              {/* <a href="https://discord.gg/JAJuD5Yx">
                 <img className="w-5 md:w-8" src={DiscordIcon} alt="" />
+              </a> */}
+              <a href="https://youtube.com/channel/UCSjqSh7_29jCUcJ_8h8xQEg">
+                <img className="w-4 md:w-8" src={YoutubeIcon} alt="" />
               </a>
               <a href="https://www.reddit.com/u/TokoNFT">
                 <img className="w-5 md:w-8" src={RedditIcon} alt="" />

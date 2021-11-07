@@ -214,7 +214,6 @@ export default function Home() {
                       <button className="bg-purple rounded-full w-3/12 font-nav text-prime text-2xl py-2 px-3">
                           Download Legalitas
                       </button>
-                      
                   </div>
               </div>
 
@@ -276,6 +275,14 @@ export default function Home() {
                     <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 px-4 w-24 mx-auto">COO
                     </p>
                   </div>
+                  </div>
+                  <div className="grid grid-cols-1 mt-10 gap-y-4">
+                      <button className="bg-purple rounded-full w-full font-nav text-prime text-2xl py-2 px-3">
+                          Download Art Paper
+                      </button>
+                      <button className="bg-purple rounded-full w-full font-nav text-prime text-2xl py-2 px-3">
+                          Download Legalitas
+                      </button>
                   </div>
               </div>
             </div>
