@@ -1,20 +1,47 @@
 import React from 'react'
 import { FooterLogo, FooterIcon } from '../assets'
+import {FacebookIcon, RedditIcon, YoutubeIcon, TiktokIcon, DiscordIcon} from '../assets'
 
 export default function Footer() {
   return (
    <div className="bg-footer font-nav pt-3 pb-32 md:py-3 relative">
-       <div className="absolute bottom-0 -left-2 ">
-            <img className="w-6/12 md:w-8/12 h-full" src={FooterLogo} alt="" />
+       <div className="absolute bottom-0 -left-2 z-0">
+            <img className="w-6/12 md:w-8/12 h-full " src={FooterLogo} alt="" />
        </div>
-      <div className="md:flex px-8 md:px-14 pb-4 pt-2 md:py-10 z-50">
-      <div className="w-full md:w-6/12">
+      <div className="md:flex px-8 md:px-14 pb-4 pt-2 md:py-10 z-50 relative">
+      <div className="w-full md:w-6/12 ">
           <img className="w-32 md:w-48" src={FooterIcon} alt="" />
           <p className="text-prime mt-3 md:mt-8 text-sm md:text-xl leading-tight">NFT Marketplace on <br /> Binance Smart Chain</p>
-          <div className="flex space-x-10 mt-8">
-              <img className="w-4 md:w-8" src={"./assets/social-media/instagram.svg"} alt="" />
-              <img className="w-4 md:w-8" src={"./assets/social-media/telegram.svg"} alt="" />
-              <img className="w-4 md:w-8" src={"./assets/social-media/twitter.svg"} alt="" />
+          <div className="mt-8 items-center">
+              <div className="flex space-x-4 md:space-x-7 items-center pb-2">
+              <a href="https://instagram.com/tokonft.io">
+                <img className="w-4 md:w-8" src={"./assets/social-media/instagram.svg"} alt="" />
+              </a>
+              <a href="https://t.me/TokoNFTGroup">
+                <img className="w-4 md:w-8" src={"./assets/social-media/telegram.svg"} alt="" />
+              </a>
+              <a href="https://twitter.com/tokonft">
+                <img className="w-4 md:w-8" src={"./assets/social-media/twitter.svg"} alt="" />
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100074288769187">
+                <img className="w-3 md:w-6" src={FacebookIcon} alt="" />
+              </a>
+              <a href="https://youtube.com/channel/UCSjqSh7_29jCUcJ_8h8xQEg">
+                <img className="w-4 md:w-8" src={YoutubeIcon} alt="" />
+              </a>
+              </div>
+              <div className="flex space-x-4 md:space-x-7 items-center py-2 z-50">
+              <a href="https://discord.gg/JAJuD5Yx">
+                <img className="w-5 md:w-8" src={DiscordIcon} alt="" />
+              </a>
+              <a href="https://www.reddit.com/u/TokoNFT">
+                <img className="w-5 md:w-8" src={RedditIcon} alt="" />
+              </a>
+              <a href="https://vt.tiktok.com/ZSe2LrvBC/">
+                <img className="w-4 md:w-8" src={TiktokIcon} alt="" />
+              </a>
+              </div>
+              
           </div>
           <p className="text-base mt-8 text-prime">info@tokonft.com</p>
       </div>
