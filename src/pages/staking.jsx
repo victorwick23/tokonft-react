@@ -34,12 +34,15 @@ export default function Staking() {
                 </div>
             </div>
             <div className="mt-14">
-                <h1 className="text-prime font-nav text-7xl font-bold text-center py-14">
+                <h1 className="text-prime font-nav text-7xl font-bold text-center py-8 md:py-14">
                     NFT STAKING</h1>
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-x-8 gap-y-24 md:gap-y-10 mt-8">
                     {a.map((item) => {
                     return(
-                    <StakingCard />
+                        <Link to="/staking-pool">
+                            <StakingCard />
+                        
+                        </Link>
                     )
                     })}
                 </div>
