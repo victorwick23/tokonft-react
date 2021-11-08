@@ -212,7 +212,7 @@ export default function Home() {
                           Download Art Paper
                       </button>
                       <button className="bg-purple rounded-full w-3/12 font-nav text-prime text-2xl py-2 px-3">
-                          Download Legalitas
+                          Legal Docs
                       </button>
                   </div>
               </div>
@@ -281,7 +281,7 @@ export default function Home() {
                           Download Art Paper
                       </button>
                       <button className="bg-purple rounded-full w-full font-nav text-prime text-2xl py-2 px-3">
-                          Download Legalitas
+                          Legal Docs
                       </button>
                   </div>
               </div>
