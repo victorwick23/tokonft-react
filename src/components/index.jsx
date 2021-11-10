@@ -7,4 +7,5 @@ export {default as Nftcard} from '../components/reusable/nftcard'
 export {default as Topartist} from '../components/reusable/topartist'
 export {default as StakingCard} from '../components/reusable/stakingcard'
 export {default as NftLIst} from '../components/reusable/nftlistprofile'
+export {default as Modal } from '../components/reusable/modal'
 // export default {Header, Footer}

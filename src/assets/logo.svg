@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="7.9265mm" height="5.3618mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 13.36 9.04"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="744" font-variant="normal" style="fill-rule:nonzero" font-weight="900">
+	<font-face 
+		font-family="Mont Heavy DEMO">
+		<font-face-src>
+			<font-face-name name="Mont Heavy DEMO"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="c" horiz-adv-x="635" d="M325.644 -17.6788c152.011,0 267.547,98.8433 288.512,245.334l-182.834 0c-15.3128,-48.173 -55.7965,-78.6672 -105.678,-78.6672 -64.8002,0 -111.79,50.8675 -111.79,121.188 0,70.3207 46.4642,120.137 111.79,120.137 48.5016,0 89.7082,-28.654 105.35,-72.8181l181.191 0c-20.3733,143.665 -134.201,239.353 -285.883,239.353 -174.29,0 -298.83,-119.019 -298.83,-286.212 0,-166.995 125,-288.315 298.173,-288.315l0 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Mont Heavy DEMO";font-variant:normal;font-weight:900;src:url("#FontID0") format(svg)}
+    .fil0 {fill:#2FEA91}
+    .fnt0 {font-weight:900;font-size:2.56px;font-family:'Mont Heavy DEMO'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2478604974400">
+   <g>
+    <text x="11.22" y="8.41"  class="fil0 fnt0">c</text>
+    <path class="fil0" d="M12.04 6.4c0.73,0 1.32,0.59 1.32,1.32 0,0.73 -0.59,1.32 -1.32,1.32 -0.73,0 -1.32,-0.59 -1.32,-1.32 0,-0.73 0.59,-1.32 1.32,-1.32zm0 0.21c0.61,0 1.11,0.5 1.11,1.11 0,0.61 -0.5,1.11 -1.11,1.11 -0.61,0 -1.11,-0.5 -1.11,-1.11 0,-0.61 0.5,-1.11 1.11,-1.11z"/>
+   </g>
+   <path class="fil0" d="M6.33 3.49l-2.78 0 0 -0.8c0,-1.69 0.93,-2.68 2.72,-2.68l2.03 0 0 2.23 -1.29 0c-0.43,0 -0.69,0.26 -0.69,0.69l0 0.57z"/>
+   <path class="fil0" d="M-0 6.11l0 -2.78 0.8 0c1.69,0 2.68,0.93 2.68,2.72l0 2.03 -2.23 0 0 -1.29c0,-0.43 -0.26,-0.69 -0.69,-0.69l-0.57 0z"/>
+   <polygon class="fil0" points="6.78,5.2 6.79,5.84 13.29,5.84 13.29,3.61 11.18,3.61 11.18,1.17 10.59,1.17 "/>
+  </g>
+ </g>
+</svg>

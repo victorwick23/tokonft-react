@@ -53,7 +53,7 @@ export default function Footer() {
               <p className="text-lg text-purple hover:text-prime">Game NFT</p>
               <p className="text-lg text-purple hover:text-prime">Sports NFT</p>
               <p className="text-lg text-purple hover:text-prime">Photography NFT</p>
-              <p className="text-lg text-purple hover:text-prime">Influencer NFTs</p>
+              <p className="text-lg text-purple hover:text-prime">Instagram NFTs</p>
               <p className="text-lg text-purple hover:text-prime">Collectibles</p>
               <p className="text-lg text-purple hover:text-prime">Video NFT</p>
               <p className="text-lg text-purple hover:text-prime">Music NFT</p>

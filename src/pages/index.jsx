@@ -7,6 +7,7 @@ import Appnft from './app'
 import Staking from './staking'
 import Detailnft from './detailnft'
 import StakingPool from './stakingpool'
+import AddNFt from './addnft'
 
 
 
@@ -17,6 +18,7 @@ export default function index() {
           <Route exact path="/" component={Home}/>
           <Route exact path="/app" component={Appnft}/>
           <Route exact path="/staking" component={Staking}/>
+          <Route exact path="/profile/add-nft" component={AddNFt}/>
           <Route exact path="/profile" component={profile}/>
           <Route exact path="/detail-nft" component={Detailnft}/>
           <Route exact path="/staking-pool" component={StakingPool}/>
