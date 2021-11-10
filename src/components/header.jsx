@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import { LogoHeader, MetamaskLogo, SafepalLogo, TknWalletLogo, TrustwalletLogo, WalletconnectLogo } from "../assets";
+import { BnbCoin, DummyNft, LogoHeader, MetamaskLogo, SafepalLogo, TknCoin, TknWalletLogo, TrustwalletLogo, WalletconnectLogo } from "../assets";
 // import { Modal } from ".";
 
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   const [showModal, setShowModal] = React.useState(false);
+  const [showModalProfile, setShowModalProfile] = React.useState(false)
 
   // function toggleModal() {
   //   setIsOpen(!isOpen);
@@ -14,7 +15,6 @@ export default function Header() {
 
 
   return (
-
     <div className="fixed font-nav z-50">
       <nav className="fixed bg-transparent py-4 w-full flex px-6 md:px-14 flex-wrap z-50 items-center bg-dark">
         <div className="flex justify-between w-4/12 items-center">
@@ -75,7 +75,8 @@ export default function Header() {
                 <Link to="/staking">
                 <li className="hover:text-purple py-2">Staking NFT</li>
                 </Link>
-                <li onClick={()=> setShowModal(true)} className="text-white bg-purple w-min mx-auto px-3 py-1 rounded-full">Connect</li>
+                <li onClick={()=> setShowModal(true)} className="text-white bg-purple w-min mx-auto px-3 py-1
+                  rounded-full">Connect</li>
               </ul>
             </div>
           </div>
@@ -105,15 +106,18 @@ export default function Header() {
               </div>
               {/*body*/}
               <div className="relative p-6  pt-0 flex-auto space-y-2">
-                <div className="flex bg-greygrad cursor-pointer items-center px-3 py-1 md:py-3 rounded-full border border-transparent hover:border-prime">
+                <div
+                  className="flex bg-greygrad cursor-pointer items-center px-3 py-1 md:py-3 rounded-full border border-transparent hover:border-prime">
                   <img className="w-8 md:w-14" src={MetamaskLogo} alt="" />
                   <p className="text-prime text-lg text-center w-full">Metamask</p>
                 </div>
-                <div className="flex bg-greygrad cursor-pointer items-center px-3 py-1 md:py-3 rounded-full  border border-transparent hover:border-prime">
+                <div
+                  className="flex bg-greygrad cursor-pointer items-center px-3 py-1 md:py-3 rounded-full  border border-transparent hover:border-prime">
                   <img className="w-8 md:w-14" src={TrustwalletLogo} alt="" />
                   <p className="text-prime text-lg text-center w-full">Trust Wallet</p>
                 </div>
-                <div className="flex bg-greygrad cursor-pointer items-center px-3 py-1 md;py-3 rounded-full  border border-transparent hover:border-prime">
+                <div
+                  className="flex bg-greygrad cursor-pointer items-center px-3 py-1 md;py-3 rounded-full  border border-transparent hover:border-prime">
                   <img className="w-8 md:w-14" src={WalletconnectLogo} alt="" />
                   <p className="text-prime text-lg text-center w-full">Wallet Connect</p>
                 </div>
@@ -128,7 +132,8 @@ export default function Header() {
 
               </div>
               {/*footer*/}
-              {/* <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
+              {/* <div
+                className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
                 <button
                   className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                   type="button" onClick={()=> setShowModal(false)}
@@ -142,6 +147,70 @@ export default function Header() {
                   Save Changes
                 </button>
               </div> */}
+            </div>
+          </div>
+        </div>
+        <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+      </>
+      ) : null}
+
+      {showModalProfile ? (
+      <>
+        <div
+          className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+          <div className="relative w-10/12 md:w-auto my-6 mx-auto max-w-3xl">
+            {/*content*/}
+            <div
+              className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-softDark bg-opacity-90 outline-none focus:outline-none">
+              {/*header*/}
+              <div className="flex items-center justify-between p-5 rounded-t">
+                <h3 className="text-lg md:text-2xl text-prime font-nav">
+                  Your Wallet
+                </h3>
+                <button
+                  className="p-1 ml-auto border-0 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
+                  onClick={()=> setShowModalProfile(false)}
+                  >
+                  <span className=" text-pr h-6 w-6 text-2xl  text-prime ">
+                    ×
+                  </span>
+                </button>
+              </div>
+              {/*body*/}
+              <div className="relative p-6  pt-0 flex-auto space-y-2">
+                <div
+                  className="flex bg-greygrad cursor-pointer items-center px-3 py-1 md:py-3 rounded-full border border-transparent hover:border-prime space-x-3">
+                  <img className="w-8 md:w-14 rounded-full" src={DummyNft} alt="" />
+                  <div className="space-y-0">
+                  <p className="text-prime text-xl ">Creator</p>
+                  <p className="text-prime text-lg ">0snfu3i4..nkwje9834</p>
+                  </div>
+                  <p className="text-prime">Copy</p>
+                </div>
+                <div
+                  className="flex bg-greygrad cursor-pointer items-center px-3 py-1 md:py-3 rounded-full  border border-transparent hover:border-prime space-x-3">
+                  <img className="w-8 md:w-14" src={BnbCoin} alt="" />
+                  <div className="space-y-0">
+                  <p className="text-prime text-lg ">0.00000 BNB</p>
+                  <p className="text-prime text-lg ">$0.00</p>
+                  </div>
+                </div>
+                <div
+                  className="flex bg-greygrad cursor-pointer items-center px-3 py-1 md:py-3 rounded-full  border border-transparent hover:border-prime space-x-3">
+                  <img className="w-8 md:w-14" src={TknCoin} alt="" />
+                  <div className="space-y-0">
+                  <p className="text-prime text-lg ">0.0000 TKN</p>
+                  <p className="text-prime text-lg ">$0.00</p>
+                  </div>
+                </div>
+                <div
+                  className="space-y-3 w-full pt-6">
+                  <p className="text-white bg-purple rounded-full text-center py-1 w-48 mx-auto text-lg ">My NFT's</p>
+                  <p className="text-white bg-purple rounded-full text-center py-1 w-48 mx-auto text-lg ">Edit Profile</p>
+                  <p className="text-white bg-purple rounded-full text-center py-1 w-48 mx-auto text-lg ">Logout</p>
+
+                </div>
+              </div>
             </div>
           </div>
         </div>

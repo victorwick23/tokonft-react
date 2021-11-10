@@ -33,4 +33,6 @@ export {default as TrustwalletLogo} from './trustwallet.png'
 export {default as WalletconnectLogo} from './walletconnect.png'
 export {default as TknWalletLogo} from './tknwallet.png'
 export {default as SafepalLogo} from './safepal.png'
+export {default as BnbCoin} from './bnbcoin.png'
+export {default as TknCoin} from './tkncoin.png'
 
