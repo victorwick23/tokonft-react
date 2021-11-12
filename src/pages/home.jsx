@@ -215,9 +215,9 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex justify-between px-14 mt-10">
-                  <button className="bg-purple rounded-full w-3/12 font-nav text-prime text-2xl py-2 px-3">
+                  <a  href="./assets/artpaper-english.pdf" download className="bg-purple rounded-full w-3/12 font-nav text-prime text-2xl py-2 px-3 text-center">
                     Download Art Paper
-                  </button>
+                  </a>
                   <button className="bg-purple rounded-full w-3/12 font-nav text-prime text-2xl py-2 px-3">
                     Legal Docs
                   </button>
@@ -287,9 +287,9 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="grid grid-cols-1 mt-10 gap-y-4">
-                  <button className="bg-purple rounded-full w-full font-nav text-prime text-2xl py-2 px-3">
+                  <a href="./assets/artpaper-english.pdf" download className="bg-purple rounded-full w-full font-nav text-prime text-2xl py-2 px-3 text-center">
                     Download Art Paper
-                  </button>
+                  </a>
                   <button className="bg-purple rounded-full w-full font-nav text-prime text-2xl py-2 px-3">
                     Legal Docs
                   </button>
