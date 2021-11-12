@@ -1,6 +1,6 @@
 import React from 'react'
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax'
-import { OurTeam, Feature, StakingImg, LaunchpadImg, MetaverseImg, GalaxyImg, GalaxyImg2, backgroundNFT, backgroundNFT2, ProfileVictor, ProfileUdin, ProfileResha, ProfileFebi, ProfileAgung, ProfileDirga, ProfileRosidi} from '../assets'
+import { OurTeam, Feature, StakingImg, LaunchpadImg, MetaverseImg, GalaxyImg, GalaxyImg2, backgroundNFT, backgroundNFT2, ProfileVictor, ProfileUdin, ProfileResha, ProfileFebi, ProfileAgung, ProfileDirga, ProfileRosidi, PhoneIcon1} from '../assets'
 import { Fade } from 'react-awesome-reveal'
 import { Link } from 'react-router-dom'
 
@@ -19,7 +19,8 @@ export default function Home() {
                 alt="" />
             </Parallax>
             <Parallax y={[-50, 50]} className="w-4/12 justify items-center">
-              <img className="w-80 mx-auto animate-heromove-2 ml-4 md:mx-auto mb-6 md:mb-48" src={"./assets/hero-2.png"} alt="" />
+              <img className="w-80 mx-auto animate-heromove-2 ml-4 md:mx-auto mb-6 md:mb-48" src={"./assets/hero-2.png"}
+                alt="" />
             </Parallax>
             <Parallax y={[-60, 50]} className="w-4/12">
               <img className="w-96 mt-14 animate-heromove-3 mb-4 md:mb-14" src={"./assets/hero-3.png"} alt="" />
@@ -31,8 +32,9 @@ export default function Home() {
           <div className="relative md:flex w-full pt-36 md:pt-24 pb-28  md:items-center px-8 md:px-14">
             <div className="w-full md:w-4/12">
               <div className>
-                <p className="text-prime text-4xl md:text-5xl font-bold mb-60 md:mb-96 md:pl-10 text-center md:text-left">NFT
-                  Marketplace <br /> built on Binance Smart Chain
+                <p
+                  className="text-prime text-4xl md:text-5xl font-bold mb-60 md:mb-96 md:pl-10 text-center md:text-left">
+                  The most complete NFT marketplace
                 </p>
                 {/* <img className="w-72 mt-32 mx-auto animate-bounce-1" src={"./assets/hero-1.png"} alt="" /> */}
               </div>
@@ -48,9 +50,13 @@ export default function Home() {
                   Launch App Now</p>
                 </Link>
               </div>
-              <div className="w-40 bg-purple rounded-full flex items-center px-4 py-1 justify-center mx-auto mt-4 md:mt-8">
+              <div
+                className="w-40 bg-purple rounded-full flex items-center px-4 py-1 justify-center mx-auto mt-4 md:mt-8">
                 <p className="font-bold text-lg text-prime">Buy</p>
                 <img className="w-14 h-full ml-2" src={"./assets/btn-buy-logo.png"} alt="" />
+              </div>
+              <div className="w-40 items-center px-4 py-1 justify-center mx-auto mt-4 md:mt-4">
+                <p className="text-prime">Buy 5% sell 8%</p>
               </div>
             </div>
             <div className="w-full md:w-4/12 ">
@@ -64,33 +70,28 @@ export default function Home() {
           <div className="relative md:flex w-full md:items-end pt-4 px-8 md:px-28 md:space-x-14">
             <div className="w-full md:w-4/12">
               <div className>
-                <p className="text-prime text-2xl font-bold text-center md:text-left">Create, Buy, Sell, and Earn with NFTs Faster and cheaper
-                  fees
-                  under $1 Earn BNB and TKN for NFT sale</p>
+                <p className="text-prime text-2xl font-bold text-center md:text-left">- Create,buy, sell and earn with
+                  NFTs</p>
+                <p className="text-prime text-2xl font-bold text-center md:text-left">- Easy and cheaper fees 2,5%</p>
+                <p className="text-prime text-2xl font-bold text-center md:text-left">- NFT Staking earn $TKN</p>
+                <p className="text-prime text-2xl font-bold text-center md:text-left">- Metaverse NFT Gallery</p>
                 <Fade direction="left" triggerOnce="true">
-                  <img className="w-56 mx-auto" src={"./assets/phone1.png"} alt="" />
+                  <img className="w-56 mx-auto" src={PhoneIcon1} alt="" />
 
                 </Fade>
-                <p className="text-lg md:w-80 text-prime font-nav mt-6 tracking-tighter leading-none text-center md:text-left  py-4 md:py-0">The night is dark and
-                  full
-                  of
-                  terrors. The winds of Winter.
-                  What is dead may never die. And now his watch is ended. The battle of the redgrass field. Unbowed,
-                  Unbent,
-                  Unbroken. All men must die.</p>
+                <p
+                  className="text-lg md:w-80 text-prime font-nav mt-6 tracking-tighter leading-none text-center md:text-left  py-4 md:py-0">
+                  TokoNFT provides platform for every creator to make NFT with simple way and low fee, that’s gonna made
+                  more profitable for both creator and collector.</p>
               </div>
             </div>
             <div className="w-full md:w-4/12  pb-4 md:py-0">
               <Fade direction="up" triggerOnce="true">
                 <img className="w-80 mx-auto mb-8" src={"./assets/phone2.png"} alt="" />
               </Fade>
-              <p className="text-lg md:w-80 text-prime font-nav mt-6 mx-auto tracking-tighter leading-none text-center md:text-left">The night is
-                dark
-                and
-                full of terrors. The winds of
-                Winter. What is dead may never die. And now his watch is ended. The battle of the redgrass field.
-                Unbowed,
-                Unbent, Unbroken. All men must die.</p>
+              <p
+                className="text-lg md:w-80 text-prime font-nav mt-6 mx-auto tracking-tighter leading-none text-center md:text-left">
+                Get verified based on biggest sale every month </p>
 
               <img className="w-52 mx-auto mt-14 hidden md:block" src={"./assets/tokonft.png"} alt="" />
 
@@ -100,13 +101,10 @@ export default function Home() {
                 <Fade direction="right" triggerOnce="true">
                   <img className="w-96 mx-auto" src={"./assets/phone3.png"} alt="" />
                 </Fade>
-                <p className="text-lg text-prime font-nav mt-6 mx-auto tracking-tighter leading-none md:w-80 text-center md:text-left">The night is
-                  dark
-                  and
-                  full of terrors. The winds of
-                  Winter. What is dead may never die. And now his watch is ended. The battle of the redgrass field.
-                  Unbowed,
-                  Unbent, Unbroken. All men must die.</p>
+                <p
+                  className="text-lg text-prime font-nav mt-6 mx-auto tracking-tighter leading-none md:w-80 text-center md:text-left">
+                  TokoNFT provide utility token named $TKN, it can be used for every ecosystem on marketplace TokoNFT
+                </p>
 
               </div>
             </div>
@@ -121,11 +119,12 @@ export default function Home() {
                   <Fade direction="left" triggerOnce="true">
                     <img className="w-64 md:w-80 mx-auto md:mx-0" src={StakingImg} alt="" />
                   </Fade>
-                  <p className="text-lg md:w-80 text-prime font-nav mt-6 tracking-tighter leading-none md:pl-14 text-center md:text-left">The night is
-                    dark and
-                    full
-                    of
-                    terrors. The winds of Winter. What is dead may never die.
+                  <p
+                    className="text-lg md:w-80 text-prime font-nav mt-6 tracking-tighter leading-none md:pl-14 text-center md:text-left">
+                    Every month’s, TOKO NFT provides Staking Pool for best-selling art works to increase the volume and
+                    to make positive impact for creators who make sales in TOKO NFT. The best-selling art works will
+                    automatically accumulate on the leaderboard within a month. We also provide earnings for buyers of
+                    artwork in TOKO NFT
                   </p>
                 </div>
                 <div className="w-full md:w-4/12 mt-10 md:mt-0">
@@ -134,10 +133,9 @@ export default function Home() {
                   </Fade>
                   <p
                     className="text-lg md:w-80 text-prime font-nav mt-6 tracking-tighter leading-none text-center mx-auto">
-                    The night is dark and
-                    full
-                    of
-                    terrors. The winds of Winter. What is dead may never die.
+                    We provide features to Enjoying the artwork and do your own exhibition like being in the Museum
+                    using Virtual Reality (VR) technology and will be launched at TOKO NFT website. Visitors can add
+                    works and see artworks that are displayed virtually with limited space.
                   </p>
                 </div>
 
@@ -145,11 +143,13 @@ export default function Home() {
                   <Fade direction="right" triggerOnce="true">
                     <img className="w-64 mx-auto md:w-80" src={LaunchpadImg} alt="" />
                   </Fade>
-                  <p className="text-lg md:w-80 text-prime font-nav mt-6 tracking-tighter leading-none text-center md:text-right pr-0 md:pr-8">The
-                    night is dark and
-                    full
-                    of
-                    terrors. The winds of Winter. What is dead may never die.
+                  <p
+                    className="text-lg md:w-80 text-prime font-nav mt-6 tracking-tighter leading-none text-center md:text-right pr-0 md:pr-8">
+                    The
+                    TOKO NFT supports the Blockchain ecosystem of various projects and invites the creators from every
+                    project to be able to launch their NFT Project through the NFT Launchpad program. TOKO NFT provides
+                    a custom pool that can be used by affiliated projects to launch NFT for their community and also can
+                    be traded in NFT TOKOs
                   </p>
                 </div>
               </div>
@@ -165,129 +165,138 @@ export default function Home() {
                   <div className="w-6/12 md:w-2/12">
                     <img className="w-32 mx-auto" src={ProfileAgung} alt="" />
                     <p className="text-prime text-2xl font-nav text-center pt-4">AGUNG PRATOMO</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1">Chief Excecutive Officer 
-                    </p>
-                  </div>
-                  <div className="w-6/12 md:w-2/12">
-                    <img className="w-32 mx-auto" src={ProfileResha} alt="" />
-                    <p className="text-prime text-2xl font-nav text-center pt-4">RESHA JUHARI</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1">Chief Marketing Officer
-                    </p>
-                  </div>
-                  <div className="w-6/12 md:w-2/12">
-                    <img className="w-32 mx-auto" src={ProfileFebi} alt="" />
-                    <p className="text-prime text-2xl font-nav text-center pt-4">FEBY DWI</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-56 mx-auto py-1">Head of Creative 
-                    </p>
-                  </div>
-                  <div className="w-6/12 md:w-2/12">
-                    <img className="w-32 mx-auto" src={ProfileRosidi} alt="" />
-                    <p className="text-prime text-2xl font-nav text-center pt-4">ROSIDI</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1">Head Blockchain Engineer
-                    </p>
-                  </div>
-                </div>
-                <div className="flex justify-center mt-14 space-x-14">
-                  <div className="w-6/12 md:w-2/12">
-                    <img className="w-32 mx-auto" src={ProfileVictor} alt="" />
-                    <p className="text-prime text-2xl font-nav text-center pt-4">VICTOR WICK</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1">Chief Technology Officer
-                    </p>
-                  </div>
-                  <div className="w-6/12 md:w-2/12">
-                    <img className="w-32 mx-auto" src={ProfileDirga} alt="" />
-                    <p className="text-prime text-2xl font-nav text-center pt-4">DIRGA FLO</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1">Chief Marketing Officer
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1">Chief
+                      Excecutive Officer
                     </p>
                   </div>
                   <div className="w-6/12 md:w-2/12">
                     <img className="w-32 mx-auto" src={ProfileUdin} alt="" />
                     <p className="text-prime text-2xl font-nav text-center pt-4">IBADARUDINNI</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1 px-4">Chief Operating Officer
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1 px-4">Chief
+                      Operating Officer
+                    </p>
+                  </div>
+                  <div className="w-6/12 md:w-2/12">
+                    <img className="w-32 mx-auto" src={ProfileVictor} alt="" />
+                    <p className="text-prime text-2xl font-nav text-center pt-4">VICTOR WICK</p>
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1">Chief
+                      Technology Officer
+                    </p>
+                  </div>
+                  <div className="w-6/12 md:w-2/12">
+                    <img className="w-32 mx-auto" src={ProfileRosidi} alt="" />
+                    <p className="text-prime text-2xl font-nav text-center pt-4">ROSIDI</p>
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1">Head
+                      Blockchain Engineer
+                    </p>
+                  </div>
+                </div>
+                <div className="flex justify-center mt-14 space-x-14">
+                  <div className="w-6/12 md:w-2/12">
+                    <img className="w-32 mx-auto" src={ProfileFebi} alt="" />
+                    <p className="text-prime text-2xl font-nav text-center pt-4">FEBY DWI</p>
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-56 mx-auto py-1">Head of
+                      Creative
+                    </p>
+                  </div>
+                  <div className="w-6/12 md:w-2/12">
+                    <img className="w-32 mx-auto" src={ProfileResha} alt="" />
+                    <p className="text-prime text-2xl font-nav text-center pt-4">RESHA JUHARI</p>
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1">Chief
+                      Marketing Officer
+                    </p>
+                  </div>
+                  <div className="w-6/12 md:w-2/12">
+                    <img className="w-32 mx-auto" src={ProfileDirga} alt="" />
+                    <p className="text-prime text-2xl font-nav text-center pt-4">DIRGA FLO</p>
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full w-64 mx-auto py-1">Chief
+                      Marketing Officer
                     </p>
                   </div>
                 </div>
                 <div className="flex justify-between px-14 mt-10">
-                      <button className="bg-purple rounded-full w-3/12 font-nav text-prime text-2xl py-2 px-3">
-                          Download Art Paper
-                      </button>
-                      <button className="bg-purple rounded-full w-3/12 font-nav text-prime text-2xl py-2 px-3">
-                          Legal Docs
-                      </button>
-                  </div>
+                  <button className="bg-purple rounded-full w-3/12 font-nav text-prime text-2xl py-2 px-3">
+                    Download Art Paper
+                  </button>
+                  <button className="bg-purple rounded-full w-3/12 font-nav text-prime text-2xl py-2 px-3">
+                    Legal Docs
+                  </button>
+                </div>
               </div>
 
               <div className="block md:hidden px-4">
                 <div className="">
                   <div className="flex space-x-8 py-2">
-                  <div className="w-6/12">
-                    <img className="w-32 mx-auto" src={ProfileAgung} alt="" />
-                    <p className="text-prime text-xl font-nav text-center pt-4">AGUNG</p>
-                    <p className="text-prime font-nav text-center text-sm bg-dark rounded-full py-1 w-24 mx-auto">CEO
-                    </p>
-                  </div>
-                  <div className="w-6/12">
-                    <img className="w-32 mx-auto" src={ProfileResha} alt="" />
-                    <p className="text-prime text-xl font-nav text-center pt-4">RESHA JUHARI</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 w-24 mx-auto">CMO
-                    </p>
-                  </div>
-                  </div>
-                 <div className="flex space-x-8 py-2">
-                 <div className="w-6/12">
-                    <img className="w-32 mx-auto" src={ProfileFebi} alt="" />
-                    <p className="text-prime text-xl font-nav text-center pt-4">FEBBY</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 w-24 mx-auto">CCO 
-                    </p>
-                  </div>
-                  <div className="w-6/12">
-                    <img className="w-32 mx-auto" src={ProfileVictor} alt="" />
-                    <p className="text-prime text-xl font-nav text-center pt-4">VICTOR</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 w-24 mx-auto">CTO
-                    </p>
-                 </div>
+                    <div className="w-6/12">
+                      <img className="w-32 mx-auto" src={ProfileAgung} alt="" />
+                      <p className="text-prime text-xl font-nav text-center pt-4">AGUNG</p>
+                      <p className="text-prime font-nav text-center text-sm bg-dark rounded-full py-1 w-24 mx-auto">CEO
+                      </p>
+                    </div>
+                    <div className="w-6/12">
+                      <img className="w-32 mx-auto" src={ProfileUdin} alt="" />
+                      <p className="text-prime text-xl font-nav text-center pt-4">IBADARUDINNI</p>
+                      <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 px-4 w-24 mx-auto">COO
+                      </p>
+                    </div>
+
                   </div>
                   <div className="flex space-x-8 py-2">
-                 <div className="w-6/12">
-                    <img className="w-32 mx-auto" src={ProfileDirga} alt="" />
-                    <p className="text-prime text-xl font-nav text-center pt-4">DIRGA FLO</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 w-24 mx-auto">CMO 
-                    </p>
+                    <div className="w-6/12">
+                      <img className="w-32 mx-auto" src={ProfileVictor} alt="" />
+                      <p className="text-prime text-xl font-nav text-center pt-4">VICTOR</p>
+                      <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 w-24 mx-auto">CTO
+                      </p>
+                    </div>
+                    <div className="w-6/12">
+                      <img className="w-32 mx-auto" src={ProfileRosidi} alt="" />
+                      <p className="text-prime text-xl font-nav text-center pt-4">ROSIDI</p>
+                      <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 w-24 mx-auto">CBO
+                      </p>
+                    </div>
                   </div>
-                  <div className="w-6/12">
-                    <img className="w-32 mx-auto" src={ProfileRosidi} alt="" />
-                    <p className="text-prime text-xl font-nav text-center pt-4">ROSIDI</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 w-24 mx-auto">CBO
-                    </p>
-                 </div>
+                  <div className="flex space-x-8 py-2">
+                    <div className="w-6/12">
+                      <img className="w-32 mx-auto" src={ProfileFebi} alt="" />
+                      <p className="text-prime text-xl font-nav text-center pt-4">FEBBY</p>
+                      <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 w-24 mx-auto">CCO
+                      </p>
+                    </div>
+                    <div className="w-6/12">
+                      <img className="w-32 mx-auto" src={ProfileResha} alt="" />
+                      <p className="text-prime text-xl font-nav text-center pt-4">RESHA JUHARI</p>
+                      <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 w-24 mx-auto">CMO
+                      </p>
+                    </div>
                   </div>
                   {/* <div className="w-4/12">
                     <img className="w-32 mx-auto" src={ProfileUdin} alt="" />
                     <p className="text-prime text-xl font-nav text-center pt-4">IBADARUDINNI</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 px-4">Chief Operating Officer
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 px-4">Chief Operating
+                      Officer
                     </p>
                   </div> */}
                 </div>
                 <div className="flex justify-between py-2">
+
                   <div className="w-6/12 mx-auto">
-                    <img className="w-32 mx-auto" src={ProfileUdin} alt="" />
-                    <p className="text-prime text-xl font-nav text-center pt-4">IBADARUDINNI</p>
-                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 px-4 w-24 mx-auto">COO
+                    <img className="w-32 mx-auto" src={ProfileDirga} alt="" />
+                    <p className="text-prime text-xl font-nav text-center pt-4">DIRGA FLO</p>
+                    <p className="text-prime font-nav text-center  bg-dark rounded-full py-1 w-24 mx-auto">CMO
                     </p>
                   </div>
-                  </div>
-                  <div className="grid grid-cols-1 mt-10 gap-y-4">
-                      <button className="bg-purple rounded-full w-full font-nav text-prime text-2xl py-2 px-3">
-                          Download Art Paper
-                      </button>
-                      <button className="bg-purple rounded-full w-full font-nav text-prime text-2xl py-2 px-3">
-                          Legal Docs
-                      </button>
-                  </div>
+                </div>
+                <div className="grid grid-cols-1 mt-10 gap-y-4">
+                  <button className="bg-purple rounded-full w-full font-nav text-prime text-2xl py-2 px-3">
+                    Download Art Paper
+                  </button>
+                  <button className="bg-purple rounded-full w-full font-nav text-prime text-2xl py-2 px-3">
+                    Legal Docs
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-          
         </div>
       </ParallaxProvider>
     </div>

@@ -1,10 +1,11 @@
+import { BrowserRouter } from "react-router-dom";
 import Pages from "./pages";
 import {Header, Footer} from "./components";
-import { BrowserRouter } from "react-router-dom";
 
 function App() {
+  
   return (
-      <BrowserRouter>
+      <BrowserRouter className="">
       <div className="text-base">
           <Header/>
           <Pages/>

@@ -34,7 +34,7 @@ export default function profile() {
       </div>
 
       <div className="md:w-9/12 items-end">
-        <div className="flex space-x-4 justify-center mt-8  md:mt-0">
+        <div className="flex space-x-8 md:space-x-12 justify-center mt-8  md:mt-0">
             <p className="text-prime text-lg md:text-2xl border-b border-purple">Collection</p>
             <p className="text-purple text-lg md:text-2xl ">Sold</p>
             <p className="text-purple text-lg md:text-2xl ">Created</p>

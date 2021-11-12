@@ -1,10 +1,17 @@
-import React from "react";
-import { Link } from 'react-router-dom'
+import React, {useEffect} from "react";
+import { Link, useLocation } from 'react-router-dom'
 import { BnbCoin, DummyNft, LogoHeader, MetamaskLogo, SafepalLogo, TknCoin, TknWalletLogo, TrustwalletLogo, WalletconnectLogo } from "../assets";
 // import { Modal } from ".";
 
 
 export default function Header() {
+  const {pathname} = useLocation()
+  useEffect(() => {
+    window.scrollTo({top:0})
+  }, [pathname])
+  console.log(pathname === "/app")
+
+
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   const [showModal, setShowModal] = React.useState(false);
   const [showModalProfile, setShowModalProfile] = React.useState(false)
@@ -26,9 +33,9 @@ export default function Header() {
             placeholder="Search NFT Marketplace" />
         </div>
         <div className="justify-end w-8/12 text-xl text-prime items-center space-x-14 hidden md:flex ">
-          <Link to="/" className="border-none hover:border-purple border-b-4">Home</Link>
-          <Link to="/app">Trade NFT's</Link>
-          <Link to="/staking">Staking NFT's</Link>
+          <Link to="/" className={`${pathname === "/" ? "border-prime" : "border-transparent" } border-b-4 `}>Home</Link>
+          <Link to="/app"  className={`${pathname === "/app" ? "border-prime" : "border-transparent" } border-b-4 `}>Trade NFT's</Link>
+          <Link to="/staking" className={`${pathname === "/staking" ? "border-prime" : "border-transparent" } border-b-4 `}>Staking NFT's</Link>
           <div className="block md:hidden">
             <svg className="w-6 text-prime" viewBox="0 0 511 386" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd"
