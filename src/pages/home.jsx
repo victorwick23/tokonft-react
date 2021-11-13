@@ -70,7 +70,7 @@ export default function Home() {
           <div className="relative md:flex w-full md:items-end pt-4 px-8 md:px-28 md:space-x-14">
             <div className="w-full md:w-4/12">
               <div className>
-                <p className="text-prime text-2xl font-bold text-center md:text-left">- Create,buy, sell and earn with
+                <p className="text-prime text-2xl font-bold text-center md:text-left">- Create, buy, sell and earn with
                   NFTs</p>
                 <p className="text-prime text-2xl font-bold text-center md:text-left">- Easy and cheaper fees 2,5%</p>
                 <p className="text-prime text-2xl font-bold text-center md:text-left">- NFT Staking earn $TKN</p>
