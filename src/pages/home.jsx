@@ -55,8 +55,8 @@ export default function Home() {
                 <p className="font-bold text-lg text-prime">Buy</p>
                 <img className="w-14 h-full ml-2" src={"./assets/btn-buy-logo.png"} alt="" />
               </div>
-              <div className="w-40 items-center px-4 py-1 justify-center mx-auto mt-4 md:mt-4">
-                <p className="text-prime">Buy 5% sell 8%</p>
+              <div className="w-full items-center px-4 py-1 justify-center mx-auto mt-4 md:mt-4">
+                <p className="text-prime font-nav text-center">Buy 5% sell 8%</p>
               </div>
             </div>
             <div className="w-full md:w-4/12 ">
@@ -76,22 +76,23 @@ export default function Home() {
                 <p className="text-prime text-2xl font-bold text-center md:text-left">- NFT Staking earn $TKN</p>
                 <p className="text-prime text-2xl font-bold text-center md:text-left">- Metaverse NFT Gallery</p>
                 <Fade direction="left" triggerOnce="true">
-                  <img className="w-56 mx-auto" src={PhoneIcon1} alt="" />
+                  <img className="w-56 mx-auto mt-5" src={PhoneIcon1} alt="" />
 
                 </Fade>
+                <p className="text-2xl font-bold md:w-80 text-prime font-nav mt-6 tracking-tighter leading-none text-center md:text-left  py-4 md:py-0">CREATE</p>
                 <p
                   className="text-lg md:w-80 text-prime font-nav mt-6 tracking-tighter leading-none text-center md:text-left  py-4 md:py-0">
-                  TokoNFT provides platform for every creator to make NFT with simple way and low fee, that’s gonna made
-                  more profitable for both creator and collector.</p>
+                  Create NFT Easier and cheaper. TokoNFT provides a NFT creation platform as well as an NFT marketplace for creators with very affordable fees and a monthly incentive program through a staking pool reward that can benefit the ecosystem of NFT creators and collectors.</p>
               </div>
             </div>
             <div className="w-full md:w-4/12  pb-4 md:py-0">
               <Fade direction="up" triggerOnce="true">
                 <img className="w-80 mx-auto mb-8" src={"./assets/phone2.png"} alt="" />
               </Fade>
+              <p className="text-2xl md:w-80 text-prime font-nav mt-6 mx-auto tracking-tighter leading-none text-center md:text-left">VERIFIED ACCOUNT</p>
               <p
                 className="text-lg md:w-80 text-prime font-nav mt-6 mx-auto tracking-tighter leading-none text-center md:text-left">
-                Get verified based on biggest sale every month </p>
+             Get a verified account from TokoNFT to the creator with the most high sales volume every month. </p>
 
               <img className="w-52 mx-auto mt-14 hidden md:block" src={"./assets/tokonft.png"} alt="" />
 
@@ -101,9 +102,10 @@ export default function Home() {
                 <Fade direction="right" triggerOnce="true">
                   <img className="w-96 mx-auto" src={"./assets/phone3.png"} alt="" />
                 </Fade>
+              <p className="text-2xl md:w-80 text-prime font-nav mt-6 mx-auto tracking-tighter leading-none text-center md:text-left">$TKN Token</p>
                 <p
                   className="text-lg text-prime font-nav mt-6 mx-auto tracking-tighter leading-none md:w-80 text-center md:text-left">
-                  TokoNFT provide utility token named $TKN, it can be used for every ecosystem on marketplace TokoNFT
+                TokoNFT presents an Utility token called $TKN. $TKN can be used in the TokoNFT ecosystem to support various features on the marketplace.
                 </p>
 
               </div>
@@ -121,10 +123,7 @@ export default function Home() {
                   </Fade>
                   <p
                     className="text-lg md:w-80 text-prime font-nav mt-6 tracking-tighter leading-none md:pl-14 text-center md:text-left">
-                    Every month’s, TOKO NFT provides Staking Pool for best-selling art works to increase the volume and
-                    to make positive impact for creators who make sales in TOKO NFT. The best-selling art works will
-                    automatically accumulate on the leaderboard within a month. We also provide earnings for buyers of
-                    artwork in TOKO NFT
+                    Every month’s, TokoNFT provides Staking Pool for best-selling art works to increase the volume and to make positive impact for creators who make sales in TokoNFT. The best-selling art works will automatically accumulate on the leaderboard within a month. We also provide earnings for buyers of artwork in TokoNFT.
                   </p>
                 </div>
                 <div className="w-full md:w-4/12 mt-10 md:mt-0">
@@ -133,9 +132,7 @@ export default function Home() {
                   </Fade>
                   <p
                     className="text-lg md:w-80 text-prime font-nav mt-6 tracking-tighter leading-none text-center mx-auto">
-                    We provide features to Enjoying the artwork and do your own exhibition like being in the Museum
-                    using Virtual Reality (VR) technology and will be launched at TOKO NFT website. Visitors can add
-                    works and see artworks that are displayed virtually with limited space.
+                   We provide features to Enjoying the artwork and do your own exhibition like being in the Museum using Virtual Reality (VR) technology and will be launched at TokoNFT website. Visitors can add works and see the artworks that are displayed virtually with limited space.
                   </p>
                 </div>
 
@@ -145,11 +142,7 @@ export default function Home() {
                   </Fade>
                   <p
                     className="text-lg md:w-80 text-prime font-nav mt-6 tracking-tighter leading-none text-center md:text-right pr-0 md:pr-8">
-                    The
-                    TOKO NFT supports the Blockchain ecosystem of various projects and invites the creators from every
-                    project to be able to launch their NFT Project through the NFT Launchpad program. TOKO NFT provides
-                    a custom pool that can be used by affiliated projects to launch NFT for their community and also can
-                    be traded in NFT TOKOs
+                 TokoNFT supports the Blockchain ecosystem of various projects and invites the creators from every project to be able to launch their NFT Project through the NFT Launchpad program. TokoNFT provides a custom pool that can be used by affiliated projects to launch NFT for their community and also can be traded in TokoNFT
                   </p>
                 </div>
               </div>
