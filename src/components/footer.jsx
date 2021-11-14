@@ -44,7 +44,7 @@ export default function Footer() {
               </div>
               
           </div>
-          <p className="text-base mt-8 text-prime">info@tokonft.com</p>
+          <p className="text-base mt-8 text-prime">support@tokonft.io</p>
       </div>
       <div className="w-6/12 justify-between hidden md:flex">
         <div className="space-y-2">

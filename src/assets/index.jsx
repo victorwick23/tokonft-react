@@ -41,4 +41,7 @@ export {default as IconMusic} from './icon-music.png'
 export {default as IconSociety} from './icon-society.png'
 export {default as IconSort} from './icon-sort.png'
 export {default as PhoneIcon1} from './phone1.png'
+export {default as TknIconNew } from './tkniconnew.png'
+export {default as LogoCoinmarketcap} from './logocoinmarketcap.png'
+export {default as LogoCoinGecko} from './logocoingecko.png'
 
