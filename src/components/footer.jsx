@@ -68,7 +68,7 @@ export default function Footer() {
               <p className="text-lg text-purple hover:text-prime">Buy TKN</p>
               <p className="text-lg text-purple hover:text-prime">Create NFTs</p>
               <p className="text-lg text-purple hover:text-prime">Earn with TKN</p>
-              <p className="text-lg text-purple hover:text-prime">Brand Kit</p>
+              {/* <p className="text-lg text-purple hover:text-prime">Brand Kit</p> */}
               <p className="text-lg text-purple hover:text-prime">Metaverse Gallery</p>
           </div>
          

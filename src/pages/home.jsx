@@ -1,6 +1,6 @@
 import React from 'react'
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax'
-import { OurTeam, Feature, StakingImg, LaunchpadImg, MetaverseImg, GalaxyImg, GalaxyImg2, backgroundNFT, backgroundNFT2, ProfileVictor, ProfileUdin, ProfileResha, ProfileFebi, ProfileAgung, ProfileDirga, ProfileRosidi, PhoneIcon1, TknIconNew, LogoCoinmarketcap, LogoCoinGecko} from '../assets'
+import { OurTeam, Feature, StakingImg, LaunchpadImg, MetaverseImg, GalaxyImg, GalaxyImg2, backgroundNFT, backgroundNFT2, ProfileVictor, ProfileUdin, ProfileResha, ProfileFebi, ProfileAgung, ProfileDirga, ProfileRosidi, PhoneIcon1, TknIconNew, LogoCoinmarketcap, LogoCoinGecko, LogoGekraf, LogoGluvia, LogoDumeca} from '../assets'
 import { Fade } from 'react-awesome-reveal'
 import { Link } from 'react-router-dom'
 
@@ -56,15 +56,15 @@ export default function Home() {
                 <img className="w-8 md:w-10 h-full ml-2 mr-2" src={TknIconNew} alt="" />
                 <p className="font-bold text-lg text-prime">$TKN</p>
               </div>
-              <div className="space-x-4 flex items-center px-4 py-1 justify-center mx-auto mt-4 md:mt-8">
-                <div className="w-6/12">
+              <div className="md:space-x-4 w-56  md:w-full md:flex items-center px-4 py-1 justify-center mx-auto mt-4 md:mt-8">
+                <div className="w-full md:w-6/12">
                   <div
                     className="bg-purple rounded-full flex items-center px-4 py-2 justify-center mx-auto">
                     <img className="w-6 h-full mr-1" src={LogoCoinmarketcap} alt="" />
                     <p className="font-bold text-base text-prime font-nav">CoinMarketCap</p>
                   </div>
                 </div>
-                <div className="w-6/12">
+                <div className="w-full md:w-6/12 mt-4 md:mt-0">
                   <div
                     className="bg-purple rounded-full flex items-center px-4 py-2 justify-center mx-auto">
                     <img className="w-6 h-full mr-5" src={LogoCoinGecko} alt="" />
@@ -323,6 +323,30 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <div className="py-14 md:py-36">
+            <p className="font-nav text-center text-2xl md:text-3xl text-prime">POWERED BY</p>
+            <div className="relative mt-2 md:mt-8">
+              <div className="md:flex md:justify-center items-center px-8 md:px-0 md:space-x-14">
+                <div className="w-full md:w-3/12 mt-10">
+                  <Fade direction="left" triggerOnce="true">
+                    <img className="w-52 md:w-52 mx-auto md:mx-auto" src={LogoGluvia} alt="" />
+                  </Fade>
+                </div>
+                <div className="w-full md:w-4/12 mt-10 md:mt-0">
+                  <Fade direction="down" triggerOnce="true">
+                    <img className="w-36 md:w-40 mx-auto" src={LogoGekraf} alt="" />
+                  </Fade>
+                </div>
+                <div className="w-full md:w-3/12 mt-10">
+                  <Fade direction="right" triggerOnce="true">
+                    <img className="w-72 mx-auto md:w-72" src={LogoDumeca} alt="" />
+                  </Fade>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </ParallaxProvider>
     </div>

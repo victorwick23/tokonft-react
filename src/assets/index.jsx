@@ -44,4 +44,8 @@ export {default as PhoneIcon1} from './phone1.png'
 export {default as TknIconNew } from './tkniconnew.png'
 export {default as LogoCoinmarketcap} from './logocoinmarketcap.png'
 export {default as LogoCoinGecko} from './logocoingecko.png'
+export {default as LogoGekraf} from './logo-gekraf.png'
+export {default as LogoGluvia} from './logo-gluvia.png'
+export {default as LogoDumeca } from './logo-dumeca.png'
+
 
