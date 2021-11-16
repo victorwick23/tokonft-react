@@ -35,7 +35,7 @@ export default function Header() {
         <div className="justify-end w-8/12 text-xl text-prime items-center space-x-14 hidden md:flex ">
           <Link to="/" className={`${pathname === "/" ? "border-prime" : "border-transparent" } border-b-4 `}>Home</Link>
           <Link to="/app"  className={`${pathname === "/app" ? "border-prime" : "border-transparent" } border-b-4 `}>Trade NFT's</Link>
-          <Link to="/staking" className={`${pathname === "/staking" ? "border-prime" : "border-transparent" } border-b-4 `}>Staking NFT's</Link>
+          <Link to="/staking" className={`${pathname === "/staking" ? "border-prime" : "border-transparent" } border-b-4 `}>NFT Staking</Link>
           <div className="block md:hidden">
             <svg className="w-6 text-prime" viewBox="0 0 511 386" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd"
@@ -80,7 +80,7 @@ export default function Header() {
                 <li className="hover:text-purple py-2">Trade NFT's</li>
                 </Link>
                 <Link to="/staking">
-                <li className="hover:text-purple py-2">Staking NFT</li>
+                <li className="hover:text-purple py-2">NFT Staking</li>
                 </Link>
                 <li onClick={()=> setShowModal(true)} className="text-white bg-purple w-min mx-auto px-3 py-1
                   rounded-full">Connect</li>

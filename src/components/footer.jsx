@@ -62,14 +62,14 @@ export default function Footer() {
 
           <div className="space-y-2">
               <p className="text-2xl text-prime font-bold">TOKONFT</p>
-              <p className="text-lg text-purple hover:text-prime">NFT Blog</p>
+              <p className="text-lg text-purple hover:text-prime">Metaverse Gallery</p>
+              {/* <p className="text-lg text-purple hover:text-prime">NFT Blog</p> */}
               <p className="text-lg text-purple hover:text-prime">NFT Launchpad</p>
+              <p className="text-lg text-purple hover:text-prime">NFT Staking</p>
               <p className="text-lg text-purple hover:text-prime">Buy NFTs</p>
               <p className="text-lg text-purple hover:text-prime">Buy TKN</p>
               <p className="text-lg text-purple hover:text-prime">Create NFTs</p>
-              <p className="text-lg text-purple hover:text-prime">Earn with TKN</p>
               {/* <p className="text-lg text-purple hover:text-prime">Brand Kit</p> */}
-              <p className="text-lg text-purple hover:text-prime">Metaverse Gallery</p>
           </div>
          
           <div className="space-y-2">
