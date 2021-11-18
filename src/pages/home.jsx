@@ -243,9 +243,9 @@ export default function Home() {
                     className="bg-purple rounded-full w-3/12 font-nav text-prime text-2xl py-2 px-3 text-center">
                     Download Art Paper
                   </a>
-                  <button className="bg-purple rounded-full w-3/12 font-nav text-prime text-2xl py-2 px-3">
+                  <a href="./assets/legaldocs.pdf" download className="bg-purple rounded-full w-3/12 font-nav text-prime text-2xl py-2 px-3">
                     Legal Docs
-                  </button>
+                  </a >
                 </div>
               </div>
 
@@ -316,9 +316,9 @@ export default function Home() {
                     className="bg-purple rounded-full w-full font-nav text-prime text-2xl py-2 px-3 text-center">
                     Download Art Paper
                   </a>
-                  <button className="bg-purple rounded-full w-full font-nav text-prime text-2xl py-2 px-3">
+                  <a href="./assets/legaldocs.pdf" className="bg-purple rounded-full w-full font-nav text-prime text-2xl py-2 px-3">
                     Legal Docs
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
