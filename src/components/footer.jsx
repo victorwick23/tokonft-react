@@ -29,7 +29,7 @@ export default function Footer() {
               
               </div>
               <div className="flex space-x-4 md:space-x-7 items-center py-2 z-50">
-              <a href="https://discord.gg/JAJuD5Yx">
+              <a href="https://discord.com/invite/5kg9QvGqpz">
                 <img className="w-5 md:w-8" src={DiscordIcon} alt="" />
               </a>
               <a href="https://youtube.com/channel/UCSjqSh7_29jCUcJ_8h8xQEg">
